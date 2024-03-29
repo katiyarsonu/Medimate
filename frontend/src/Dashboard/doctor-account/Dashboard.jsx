@@ -1,48 +1,48 @@
-// import React from "react";
+import React from "react";
 
-// const Dashboard = () => {
-//   return (
-//     <div>Dashboard</div>
-//   )
-// }
+const Dashboard = () => {
+  return (
+    <div>Dashboard</div>
+  )
+}
 
-// export default Dashboard
+export default Dashboard
 
 
-import Loader from "../../components/Loader/Loading";
+// import Loader from "../../components/Loader/Loading";
 
-import Error from "../../components/Error/Error";
+// import Error from "../../components/Error/Error";
 
-import { useGetProfile } from "../../hooks/useFetchData";
-import { BASE_URL } from "../../config";
+// // import { useGetProfile } from "../../hooks/useFetchData";
+// import { BASE_URL } from "../../config";
 
-const Dashboard = ()=> { 
+// const Dashboard = ()=> { 
 
-const {data , loading ,error} = useGetProfile(`${BASE_URL}/doctors/profile/me`)
+// const {data , loading ,error} = useGetProfile(`${BASE_URL}/doctors/profile/me`)
 
-return (
+// return (
 
-<section>
+// <section>
 
-<div className="max-w-[1170px] px-5 mx-auto">
+// <div className="max-w-[1170px] px-5 mx-auto">
 
-{loading && !error && <Loader/>}
+// {loading && !error && <Loader/>}
 
-{error && !loading && <Error/>}
+// {error && !loading && <Error/>}
 
-{! loading && !error && (
+// {! loading && !error && (
 
-<div className="grid lg:grid-cols-3 gap-[30px] lg:gap-[50px]">
+// <div className="grid lg:grid-cols-3 gap-[30px] lg:gap-[50px]">
 
-</div>
+// </div>
 
-)}
-</div>
+// )}
+// </div>
 
-</section>
+// </section>
 
-);
+// );
 
-};
+// };
 
-export default Dashboard;
+// export default Dashboard;
