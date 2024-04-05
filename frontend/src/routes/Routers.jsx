@@ -9,7 +9,7 @@ import Doctors from "../pages/Doctors/Doctors";
 import DoctorDetails from "../pages/Doctors/DoctorDetails";
 import MyAccount from "../Dashboard/user-account/MyAccount";
 import Dashboard from "../Dashboard/doctor-account/Dashboard";
-
+import Map from "../pages/maps"
 import {Routes,Route} from "react-router-dom";
 import ProtectedRoute from "./ProtectedRoute";
 
@@ -28,7 +28,7 @@ const Routers = () => {
     <Route path ="/services" element ={<Services/>} />
     <Route path ="/users/profile/me" element ={<ProtectedRoute allowedRoles= {['patient']}> <MyAccount /></ProtectedRoute>} />
     <Route path ="/doctors/profile/me" element ={<ProtectedRoute allowedRoles={['doctor']}><Dashboard/></ProtectedRoute>} />
-   
+     <Route path ="/maps" element ={<Map/>} />
     
   </Routes>
   )
