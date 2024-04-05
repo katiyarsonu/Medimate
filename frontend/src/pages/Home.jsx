@@ -156,7 +156,7 @@ const Home = () => {
               </h2>
               <p className='text-[16px] leading=7 text-textColor font-[400] mt-4 text-center'>Feeling under the weather? Our "Find a Location" section is here to help! Search for awesome doctors near you, filter by what you need (like magic!), and snag an appointment that works for your busy schedule.</p>
 
-              <Link to='/doctors' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
+              <Link to='/maps' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
 
 
                <BsArrowRight className='group-hover:text-white w-6 h-5'/> 
