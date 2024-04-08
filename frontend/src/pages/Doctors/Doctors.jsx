@@ -34,7 +34,8 @@ const Doctors = () => {
   <div className="xl:w-[470px] mx-auto">
         <h2 className='heading text-center'>What our patient say</h2>
         <p className='text__para text-center'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sunt sapiente ullam id dolore officia voluptatibus ratione iusto. Ipsam fugit cupiditate asperiores iusto assumenda quos veritatis quaerat temporibus voluptates dignissimos.
+          Welcome to our website, where your valuable opinions are treasured and recorded. We believe every viewpoint adds depth to the conversation. Explore, engage, and let your voice be heard!
+          
         </p>
       </div>
       <Testimonial/>
