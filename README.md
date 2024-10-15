@@ -1,4 +1,5 @@
 # Project Title: Healthcare Appointment System 🏥
+![Demo Image](medimate_sc.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -103,7 +104,7 @@ To set up the project locally, follow these steps:
 Once the application is running, you can access it through your browser. Users can register, log in, and start booking appointments with healthcare providers.
 
 ## Demo 🎥
-![Demo Image](https://drive.google.com/file/d/1hYLnAQk8Pvwqe5zO_OyF6hb47nGXj8dz/view?usp=sharing)
+![Demo Image](medimate_sys_design_page-0001.jpg)
 
 ## Contributing 🤝
 We welcome contributions! Please follow these steps:
