@@ -1,4 +1,4 @@
-# Project Title: Healthcare Appointment System 🏥
+# Medimate : Healthcare Appointment Solution 🏥
 ![Demo Image](medimate_sc.png)
 
 ## Table of Contents
