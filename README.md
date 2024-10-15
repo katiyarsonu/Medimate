@@ -17,7 +17,7 @@
 ---
 
 ## Introduction 📖
-The Healthcare Appointment System is a full-stack web application designed to streamline the appointment booking process between patients and healthcare providers. This project focuses on providing a secure, efficient, and user-friendly experience for managing appointments, patient records, and doctor profiles.
+The Healthcare Appointment Solution (Medimate) is a full-stack web application designed to streamline the appointment booking process between patients and healthcare providers. This project focuses on providing a secure, efficient, and user-friendly experience for managing appointments, patient records, and doctor profiles.
 
 ## Technologies Used 🛠️
 - **Backend:** Node.js, Express.js
